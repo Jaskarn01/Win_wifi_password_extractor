@@ -1,5 +1,4 @@
 import os
-os.system('del file.txt')
 os.system('netsh wlan show profiles > file.txt')
 passwords = []
 def main():
